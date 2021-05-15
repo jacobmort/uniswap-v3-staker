@@ -32,7 +32,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Make dependencies
-        run: git submodule init && git submodule update && make deps
+        run: git submodule update --init --recursive && git submodule update --recursive && make deps
 
       # This is required separately from yarn test because it generates the typechain definitions
       - name: Compile
