@@ -21,5 +21,5 @@ periphery:
 
 
 setup:
-	git submodule add https://github.com/Uniswap/uniswap-v2-core.git
+	git submodule add https://github.com/Uniswap/uniswap-v3-core.git
 	git submodule add https://github.com/Uniswap/uniswap-v3-periphery.git
